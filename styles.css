@@ -211,3 +211,68 @@ body {
   opacity: 1;
   pointer-events: all;
 }
+
+@media (max-width: 1000px) {
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+    overflow: auto;
+  }
+  .main-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  .main-content::-webkit-scrollbar-track {
+    background: #7c7c7c;
+  }
+  .main-content::-webkit-scrollbar-thumb {
+    background-color: #007acc;
+    border-radius: 10px;
+    border: 1.5px solid #005799;
+  }
+  .main-content__wrapper {
+    flex-direction: column;
+  }
+  .main-content__upper {
+    padding-inline: 9rem;
+    font-size: 20px;
+    text-wrap: nowrap;
+    margin: 2rem auto -2rem auto;
+    font-size: 1.5rem;
+  }
+  .main-content__options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-content__title {
+    margin-bottom: 3rem;
+  }
+  .main-content__categories {
+    padding: 2rem 0;
+  }
+  .main-content__title {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .main-content__type {
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .main-content .form {
+    padding: 30px;
+  }
+  .main-content__table tr {
+    position: relative;
+  }
+  .main-content__table tr::after {
+    right: 0;
+    color: #007acc;
+  }
+}

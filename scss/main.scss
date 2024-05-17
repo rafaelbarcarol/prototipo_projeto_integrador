@@ -241,3 +241,83 @@ body {
     pointer-events: all;
   }
 }
+
+@media (max-width: 1000px) {
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #7c7c7c;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $blue;
+      border-radius: 10px;
+      border: 1.5px solid #005799;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__upper {
+      padding-inline: 9rem;
+      font-size: 20px;
+      text-wrap: nowrap;
+      margin: 2rem auto -2rem auto;
+      font-size: 1.5rem;
+    }
+
+    &__options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    &__title {
+      margin-bottom: 3rem;
+    }
+
+    &__categories {
+      padding: 2rem 0;
+    }
+
+    &__title {
+      font-size: 1.5rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    &__type {
+      border-radius: 2rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .form {
+      padding: 30px;
+    }
+
+    &__table {
+      tr {
+        position: relative;
+
+        &::after {
+          right: 0;
+          color: $blue;
+        }
+      }
+    }
+  }
+}
