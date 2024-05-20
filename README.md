@@ -7,7 +7,7 @@
 ---
 ## Modelo de layout
 
-- Modelo de layour Desktop
+- Modelo de layout Desktop
   
 
 ![Modelo de layour Desktop](https://raw.githubusercontent.com/rafaelbarcarol/prototipo_projeto_integrador/main/img/modelo_prototipo_desktop.jpg)
