@@ -88,4 +88,4 @@ Projeto de interface de acesso a plataforma de uma instituição de ensino, onde
  **Rafael Michalofwski Barcarol**  
  **Ruan Alexander Rodrigues Joaquim**
  
- --
+ ---
